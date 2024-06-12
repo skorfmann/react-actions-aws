@@ -7,7 +7,7 @@ import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Toolti
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
-export const Counter = () => {
+export const Cloud = () => {
   const [buckets, setBuckets] = useState<string[]>([]);
   const [objects, setObjects] = useState<{ name: string, size: number }[]>([]);
   const [selectedBucket, setSelectedBucket] = useState<string | null>(null);
